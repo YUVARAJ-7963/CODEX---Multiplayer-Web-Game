@@ -1,0 +1,210 @@
+
+.home-body{
+
+    width: 100%;
+    height: 700vh;
+
+}
+.intro_image{
+    height: 50%;
+    width: 50%;
+    top:-35%;
+    left:50%;
+    z-index:-1;
+    
+    
+}
+
+
+.feutures{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.try-games_main{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.about{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'game';
+    src: url('Y:/CODEX/frontend/src/assets/game-name.ttf') format('truetype');
+}
+
+.logo-img{
+    animation: slideDown 1.8s ease-in ;
+}
+.get{
+    animation: slideDown 1.8s ease-in ;
+    position: relative;
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        top: -200px;  /* Start from a lower position */
+    }
+    to {
+        opacity: 1;
+        top: 0px;   /* End at the normal position */
+    }
+}
+
+
+#svg-2 {
+    fill: azure;
+    stroke-width: 5px;
+  }
+  
+
+#svg-3
+{
+  height:80px;
+  width: 80px;
+  stroke: white;
+  fill-opacity: 1;
+  stroke-width: 3px;
+
+  fill: #fff;
+
+}
+.Gamename {
+
+    font-family:'game';
+    
+    
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        top: 200px;  /* Start from a lower position */
+    }
+    to {
+        opacity: 1;
+        top: 0px;   /* End at the normal position */
+    }
+}
+.get_started2_change_position{
+    position: relative;
+    top:20%;
+    left:6%;
+
+}
+.get-started {
+    position: relative;
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    transition: all 0.2s ease-in;
+    
+  }
+
+  .get-started:hover {
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    transition: all 0.2s ease-out;
+  }
+
+  .get-started:hover::before {
+    animation: sh02 0.5s 0s linear;
+  }
+
+  .get-started::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    transform: skewX(-20deg);
+  }
+
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+
+  .get-started:active {
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow 0.2s ease-in;
+  }
+
+.languages {
+  width: 100%;
+  height: 300vh;
+  font-size: 7rem;
+  color: #fff;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%;
+        
+     }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease-in-out infinite;
+  }
+
+  .card {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 175px;
+    border-radius: 1.5rem;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg,#8A2BE2 0%, #8A2BE2 100%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+
+  
